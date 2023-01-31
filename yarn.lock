@@ -1058,7 +1058,7 @@
   dependencies:
     ajv "^8.11.0"
 
-"@cowprotocol/contracts@git+https://github.com/Rowen-S/contracts":
+"@cowprotocol/contracts@git+https://github.com/Rowen-S/contracts#main":
   version "1.3.1"
   resolved "git+https://github.com/Rowen-S/contracts#38f1188d72056ee489e3ff693797eb7cea67b434"
 
