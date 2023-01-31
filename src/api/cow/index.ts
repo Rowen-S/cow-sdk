@@ -40,12 +40,14 @@ function getCowProtocolUrl(env: Env): Partial<Record<ChainId, string>> {
       return {
         [ChainId.MAINNET]: 'https://barn.api.cow.fi/mainnet/api',
         [ChainId.GOERLI]: 'https://barn.api.cow.fi/goerli/api',
+        [ChainId.BSC_TEST]: 'http://16.162.161.200:8080/api',
         [ChainId.GNOSIS_CHAIN]: 'https://barn.api.cow.fi/xdai/api',
       }
     case 'prod':
       return {
         [ChainId.MAINNET]: 'https://api.cow.fi/mainnet/api',
         [ChainId.GOERLI]: 'https://api.cow.fi/goerli/api',
+        [ChainId.BSC_TEST]: 'http://16.162.161.200:8080/api',
         [ChainId.GNOSIS_CHAIN]: 'https://api.cow.fi/xdai/api',
       }
   }

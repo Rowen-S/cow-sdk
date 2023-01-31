@@ -8,5 +8,6 @@ export enum SupportedChainId {
 export const ALL_SUPPORTED_CHAIN_IDS: SupportedChainId[] = [
   SupportedChainId.MAINNET,
   SupportedChainId.GOERLI,
+  SupportedChainId.BSC_TEST,
   SupportedChainId.GNOSIS_CHAIN,
 ]
