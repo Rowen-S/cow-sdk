@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@cowprotocol/app-data": "git+https://github.com/Rowen-S/app-data#main",
-    "@cowprotocol/contracts": "git+https://github.com/Rowen-S/contracts#main",
+    "@cowprotocol/contracts": "git+https://github.com/Rowen-S/contracts",
     "cross-fetch": "^3.1.5",
     "ethers": "^5.5.3",
     "graphql": "^16.3.0",
